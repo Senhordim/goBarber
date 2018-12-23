@@ -3,7 +3,7 @@ module.exports = {
   host: '127.0.0.1',
   username: 'srdim',
   password: 'srdim',
-  database: 'goBarber',
+  database: 'gobarber',
   operatorAliases: false,
   define: {
     timestamps: true,
