@@ -15,7 +15,7 @@ class App {
   }
 
   middlewares () {
-    this.express.use(express.urlencoded({ extends: false }))
+    this.express.use(express.urlencoded({ extended: true }))
   }
 
   views () {

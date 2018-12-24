@@ -1,11 +1,11 @@
 const express = require('express')
 const UserController = require('./app/controllers/UserController')
-const HomeController = require('./app/controllers/HomeController')
+const PagesController = require('./app/controllers/PagesController')
 
 const routes = express.Router()
 
 // Home
-routes.get('/', HomeController.index)
+routes.get('/', PagesController.home)
 
 // Auth
 routes.get('/signup', UserController.create)
