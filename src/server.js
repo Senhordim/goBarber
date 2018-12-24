@@ -2,6 +2,8 @@ const express = require('express')
 const nunjucks = require('nunjucks')
 const path = require('path')
 
+require('dotenv').config()
+
 class App {
   constructor () {
     this.express = express()
