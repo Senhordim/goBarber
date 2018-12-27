@@ -1,8 +1,8 @@
 module.exports = {
   dialect: 'postgres',
-  host: process.env.DB_HOST,
-  username: process.env.DB_USER,
-  password: process.env.DB_PASSWORD,
+  host: '127.0.0.1',
+  username: 'srdim',
+  password: 'srdim',
   database: 'gobarber',
   operatorAliases: false,
   define: {

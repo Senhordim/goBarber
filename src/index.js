@@ -1,3 +1,3 @@
 const server = require('./app')
 
-server.listen(process.env.PORT || process.env.PORT_APP)
+server.listen(process.env.PORT || 3000)
