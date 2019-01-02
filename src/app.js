@@ -23,7 +23,7 @@ class App {
         secret: 'MyAppSecret',
         resave: true,
         store: new FileStore({
-          path: path.resolve(__dirname, '..', 'tmp', 'sessions')
+          path: path.resolve(__dirname, 'tmp', 'sessions')
         }),
         saveUninitialized: true
       })
